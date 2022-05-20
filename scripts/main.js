@@ -10,6 +10,14 @@ function addOnScreen(num){
     screen.textContent += '÷';
     return;
   }
+  if(num === '**'){
+    screen.textContent += '^';
+    return;
+  }
+  if(num === '*'){
+    screen.textContent += 'x';
+    return;
+  }
   screen.textContent += num;
 }
 
